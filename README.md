@@ -11,6 +11,30 @@ This project is a vintage film photo filter written in C for my Computer Systems
 
 The project compares a baseline implementation with an optimized implementation to evaluate processing speed, memory usage, and generated assembly instructions.
 
+
+<h2>Before & After</h2>
+
+<p>
+  The vintage film filter adds warmth, reduces contrast,
+  and creates a soft, faded appearance.
+</p>
+
+<table>
+  <tr>
+    <th>Original Image</th>
+    <th>Vintage Film Filter</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="original-1024.png" alt="Original flower image" width="400">
+    </td>
+    <td>
+      <img src="filtered-1024.png" alt="Flower image with vintage film filter" width="400">
+    </td>
+  </tr>
+</table>
+
+
 ## Program Versions
 
 ### Baseline (`baseline.c`)
